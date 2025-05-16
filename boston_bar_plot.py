@@ -43,7 +43,7 @@ data_grid = np.array([0,1,2,3,4,5,6,9,10,12])
 data = 1
 rs = 42
 UCI = args.data_dir
-Data = pd.read_excel(UCI + 'd0.xls')
+Data = pd.read_excel(UCI + 'd0.xlsx')
 Data = Data.as_matrix()
 OBS_DIM = Data.shape[1]
 ### UCI data preprocess

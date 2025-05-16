@@ -23,7 +23,7 @@ tfd = tfp.distributions
 plt.switch_backend('agg')
 
 ### load data
-Data = pd.read_excel(UCI + '/d0.xls')
+Data = pd.read_excel(UCI + '/d0.xlsx')
 Data = Data.to_numpy()  # .as_matrix() deprecated, use to_numpy()
 
 ### data preprocess

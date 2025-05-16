@@ -54,7 +54,7 @@ plt.switch_backend('agg')
 tfd = tf.contrib.distributions
 
 ### load data
-Data = pd.read_excel(UCI + '/d0.xls')
+Data = pd.read_excel(UCI + '/d0.xlsx')
 Data = Data.as_matrix()
 ### data preprocess
 max_Data = 1  #
