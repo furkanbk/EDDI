@@ -107,7 +107,7 @@ def p_vae_active_learning(Data_train,mask_train,Data_test,mask_test,epochs,laten
 
     for r in range(Repeat):
         ## train partial VAE
-        tf.reset_default_graph()
+        #tf.reset_default_graph()
         vae = train_p_vae(Data_train,mask_train, epochs, latent_dim,batch_size, p, K,10)
         n_test = Data_test.shape[0]
         n_train = Data_train.shape[0]
